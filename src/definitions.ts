@@ -1,3 +1,4 @@
-export interface CheckVpnPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+ export interface CheckVpnPlugin {
+  getVpnStatus(): Promise<{ vpnStatus: string | undefined }>;
+  echo(options: { value: string | undefined }): Promise<{ value: string  | undefined}>;
 }

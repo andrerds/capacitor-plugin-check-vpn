@@ -1,12 +1,20 @@
+/* eslint-disable no-undef */
+import { CheckVpn } from '@capacitor/check-vpn';
 import { SplashScreen } from '@capacitor/splash-screen';
-import { Camera } from '@capacitor/camera';
 
+// eslint-disable-next-line no-undef
 window.customElements.define(
   'capacitor-welcome',
   class extends HTMLElement {
     constructor() {
       super();
-
+     CheckVpn.checkVpnStatus().then((status) => {
+      console.log(status);
+      alert(status);
+     }).catch((error) => {
+      console.error(error);
+     });
+     
       SplashScreen.hide();
 
       const root = this.attachShadow({ mode: 'open' });

@@ -1,7 +1,11 @@
 {
+  "private":false,
+  "publishConfig": {
+    "access": "public"
+  },
   "name": "@capacitor/check-vpn",
   "version": "0.0.1",
-  "description": "Check is vpn workins",
+  "description": "Check is vpn activated",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -17,7 +21,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.git"
+    "url": "git+https://github.com/andrerds/capacitor-plugin-check-vpn.git"
   },
   "bugs": {
     "url": "https://github/issues"
