@@ -28,17 +28,4 @@ public class CheckVpn {
         call.resolve(result);
     }
 
-//    public String echo(String value) {
-//        Log.i("Echo", value);
-//        return value;
-//    }
-//    public  VpnStatus checkConnectionVpn(@NonNull VpnStatus value) {
-//        Log.i("checkConnectionVpn", value.toString());
-//         return value;
-//    }
-//
-//    public boolean checkPermission(Context context) {
-//        return ActivityCompat.checkSelfPermission(context, Manifest.permission.ACCESS_NETWORK_STATE) == PackageManager.PERMISSION_GRANTED;
-//    }
-
 }

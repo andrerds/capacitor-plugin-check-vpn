@@ -1,11 +1,11 @@
-# @capacitor/check-vpn
+# capacitor-check-vpn
 
 Check is vpn workins
 
 ## Install
 
 ```bash
-npm install @capacitor/check-vpn
+npm i capacitor-check-vpn
 npx cap sync
 ```
 
