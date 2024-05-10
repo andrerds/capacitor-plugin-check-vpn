@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "name": "@capacitor/check-vpn",
+  "name": "capacitor-check-vpn",
   "version": "0.0.1",
   "description": "Check is vpn activated",
   "main": "dist/plugin.cjs.js",
